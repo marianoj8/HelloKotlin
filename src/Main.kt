@@ -1,8 +1,6 @@
 // Funcoes em Kotlin
 
-fun getGreeting(): String {
-    return "Hello Kotlin!"
-}
+fun getGreeting(): String = "Hello Kotlin!"
 
 fun seyHello() {
     print(getGreeting())
