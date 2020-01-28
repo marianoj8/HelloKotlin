@@ -2,11 +2,14 @@
 
 fun getGreeting(): String = "Hello Kotlin!"
 
+fun seyHelloTo(message: String) = "Hello $message"
+
 fun seyHello() {
-    print(getGreeting())
+    println(getGreeting())
 }
 
 fun main() {
     println(getGreeting())
     seyHello()
+    println(seyHelloTo("Mariano"))
 }
