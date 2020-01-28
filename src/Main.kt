@@ -1,9 +1,14 @@
-// Variaves em Kotlin
+// Funcoes em Kotlin
+
+fun getGreeting(): String {
+    return "Hello Kotlin!"
+}
+
+fun seyHello() {
+    print(getGreeting())
+}
 
 fun main() {
-    val nome1 = "Mariano"
-//    nome = ""
-    var nome2 = " JavaSwing"
-    nome2 = " Mariano JavaSwing"
-    println(nome1 + nome2)
+    println(getGreeting())
+    seyHello()
 }
